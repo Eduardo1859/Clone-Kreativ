@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+*{
+    font-family: 'Space Grotesk';
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   /* background: rgb(0,25,181);
+background: linear-gradient(126deg, rgba(0,25,181,1) 8%, rgba(9,9,121,1) 62%, rgba(0,212,255,1) 91%);
+background-repeat: repeat;
+background-]; */
+background-image: url(assecs/gradient.png);
+background-size: cover;
+background-position: top;
+
+}
+
+#main {
+    width: 1440px;
+    height: 800px;
+    margin-top: 5% ;
+    margin-left: 12%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+
+}
+#conteiner{
+  
+    background-image: url(assecs/Stroke\ 5.png);
+    background-color: white;
+ 
+}
+#conteiner > p {
+    color: #496F74;
+    font-weight: bold;
+    font-size: 24;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+#conteiner > h1 {
+ width: 360px;
+ height: 50px;
+ font-size: 22;
+ font-weight: bold;
+ margin-top: 40px;
+
+}
+#conteiner > .textfild{
+    width: 400px;
+    height: 68px;
+    font-size:16;
+    margin-top: 20px; 
+    font-style: normal;
+    margin: 20px;
+    border-radius: 4px;
+
+    
+}
+#conteiner > .textfild > p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+#conteiner > .textfild > #par{
+    margin: 1px;
+    font-size: 10;
+    border-radius: 4px;
+}
+#conteiner > .textfild > input{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+#conteiner > .textfild > #img1{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+#conteiner > .textfild > #img2{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+#conteiner > .textfild > #img3{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 175px;
+}
+#conteiner > .btn > button{
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: #284A5E;
+}
+#conteiner > .btn > p{
+    text-align: center;
+}
+.footer {
+    background: rgb(9,200,219);
+background: linear-gradient(146deg, rgba(9,200,219,1) 0%, rgba(14,69,121,1) 100%);
+
+}
+.footer > .menu{
+    text-align: right;
+    margin: 10px;
+}
+.footer > .menu > a {
+    margin:10px;
+    color: white;
+    
+}
+.footer > .paragrafo {
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer > .paragrafo > h1 {
+    width: 412px;
+    height: 140px;
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: 64;
+}
+.footer > .paragrafo > p {
+   width:  126px;
+   height: 24px;
+   font-weight: bold;
+   font-size: 16;
+   margin: 0px;
+}
